@@ -9,7 +9,6 @@
         <module name="base-web" />
         <module name="hello-maven" />
         <module name="maven-nexus" />
-        <module name="ssm-maven" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
