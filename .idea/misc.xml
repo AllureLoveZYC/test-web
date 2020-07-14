@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/base-web/pom.xml" />
         <option value="$PROJECT_DIR$/hello-maven/pom.xml" />
         <option value="$PROJECT_DIR$/maven-nexus/pom.xml" />
+        <option value="$PROJECT_DIR$/maven-ssm/pom.xml" />
       </list>
     </option>
   </component>

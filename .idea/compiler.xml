@@ -9,12 +9,14 @@
         <module name="base-web" />
         <module name="hello-maven" />
         <module name="maven-nexus" />
+        <module name="maven-ssm" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="base-web" target="1.8" />
       <module name="hello-maven" target="1.8" />
       <module name="maven-nexus" target="1.5" />
+      <module name="maven-ssm" target="1.8" />
       <module name="ssm-maven" target="1.8" />
     </bytecodeTargetLevel>
   </component>

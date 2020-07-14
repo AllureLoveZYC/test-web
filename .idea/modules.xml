@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/base-web/base-web.iml" filepath="$PROJECT_DIR$/base-web/base-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/hello-maven/hello-maven.iml" filepath="$PROJECT_DIR$/hello-maven/hello-maven.iml" />
       <module fileurl="file://$PROJECT_DIR$/maven-nexus/maven-nexus.iml" filepath="$PROJECT_DIR$/maven-nexus/maven-nexus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-ssm/maven-ssm.iml" filepath="$PROJECT_DIR$/maven-ssm/maven-ssm.iml" />
       <module fileurl="file://$PROJECT_DIR$/test-web.iml" filepath="$PROJECT_DIR$/test-web.iml" />
     </modules>
   </component>
