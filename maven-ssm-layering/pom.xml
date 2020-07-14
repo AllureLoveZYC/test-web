@@ -4,11 +4,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.maven.ssm</groupId>
-    <artifactId>maven-ssm</artifactId>
+    <groupId>com.maven.ssm.layering</groupId>
+    <artifactId>maven-ssm-layering</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>ssm-dao</module>
+        <module>ssm-service</module>
+        <module>ssm-web</module>
+    </modules>
     <packaging>pom</packaging>
-    <name>maven-ssm</name>
+    <name>ssm 分层父项目</name>
 
     <!-- 统一管理jar包版本 -->
     <properties>
@@ -20,7 +25,6 @@
         <mybatis.version>3.4.5</mybatis.version>
         <spring.security.version>5.0.1.RELEASE</spring.security.version>
     </properties>
-
     <!-- 锁定jar包版本 -->
     <dependencyManagement>
         <dependencies>
@@ -208,8 +212,14 @@
             <version>1.0.9</version>
         </dependency>
     </dependencies>
+    <!-- 添加tomcat7插件 -->
     <build>
         <plugins>
+            <plugin>
+                <groupId>org.apache.tomcat.maven</groupId>
+                <artifactId>tomcat7-maven-plugin</artifactId>
+                <version>2.2</version>
+            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -220,29 +230,7 @@
                     <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
-            <plugin>
-                <groupId>org.apache.tomcat.maven</groupId>
-                <artifactId>tomcat7-maven-plugin</artifactId>
-                <version>2.2</version>
-                <configuration>
-                    <port>5555</port>
-                    <uriEncoding>UTF-8</uriEncoding>
-                </configuration>
-            </plugin>
         </plugins>
-        <resources>
-            <resource>
-                <directory>src/main/java</directory>
-                <includes>
-                    <include>**/*.xml</include>
-                </includes>
-            </resource>
-            <resource>
-                <directory>src/main/resources</directory>
-                <includes>
-                    <include>**/*.*</include>
-                </includes>
-            </resource>
-        </resources>
     </build>
+
 </project>
