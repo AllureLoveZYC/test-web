@@ -7,7 +7,8 @@
     <groupId>com.maven.ssm</groupId>
     <artifactId>maven-ssm</artifactId>
     <version>1.0-SNAPSHOT</version>
-
+    <packaging>war</packaging>
+    <name>maven-ssm</name>
 
     <!-- 统一管理jar包版本 -->
     <properties>
@@ -212,7 +213,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.1</version >
+                <version>3.1</version>
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
@@ -224,7 +225,7 @@
                 <artifactId>tomcat7-maven-plugin</artifactId>
                 <version>2.2</version>
                 <configuration>
-                    <port>6666</port>
+                    <port>5555</port>
                     <uriEncoding>UTF-8</uriEncoding>
                 </configuration>
             </plugin>
@@ -234,6 +235,12 @@
                 <directory>src/main/java</directory>
                 <includes>
                     <include>**/*.xml</include>
+                </includes>
+            </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>**/*.*</include>
                 </includes>
             </resource>
         </resources>
