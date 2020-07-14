@@ -6,6 +6,10 @@
       <module fileurl="file://$PROJECT_DIR$/hello-maven/hello-maven.iml" filepath="$PROJECT_DIR$/hello-maven/hello-maven.iml" />
       <module fileurl="file://$PROJECT_DIR$/maven-nexus/maven-nexus.iml" filepath="$PROJECT_DIR$/maven-nexus/maven-nexus.iml" />
       <module fileurl="file://$PROJECT_DIR$/maven-ssm/maven-ssm.iml" filepath="$PROJECT_DIR$/maven-ssm/maven-ssm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-ssm-layering/maven-ssm-layering.iml" filepath="$PROJECT_DIR$/maven-ssm-layering/maven-ssm-layering.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-ssm-layering/ssm-dao/ssm-dao.iml" filepath="$PROJECT_DIR$/maven-ssm-layering/ssm-dao/ssm-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-ssm-layering/ssm-service/ssm-service.iml" filepath="$PROJECT_DIR$/maven-ssm-layering/ssm-service/ssm-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-ssm-layering/ssm-web/ssm-web.iml" filepath="$PROJECT_DIR$/maven-ssm-layering/ssm-web/ssm-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/test-web.iml" filepath="$PROJECT_DIR$/test-web.iml" />
     </modules>
   </component>

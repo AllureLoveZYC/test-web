@@ -9,7 +9,9 @@
         <module name="base-web" />
         <module name="hello-maven" />
         <module name="maven-nexus" />
-        <module name="maven-ssm" />
+        <module name="ssm-dao" />
+        <module name="ssm-service" />
+        <module name="ssm-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,7 +19,11 @@
       <module name="hello-maven" target="1.8" />
       <module name="maven-nexus" target="1.5" />
       <module name="maven-ssm" target="1.8" />
+      <module name="maven-ssm-layering" target="1.8" />
+      <module name="ssm-dao" target="1.8" />
       <module name="ssm-maven" target="1.8" />
+      <module name="ssm-service" target="1.8" />
+      <module name="ssm-web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

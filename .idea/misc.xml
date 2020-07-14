@@ -2,7 +2,19 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/hello-maven" />
+    <file type="web" url="file://$PROJECT_DIR$/maven-ssm" />
+    <file type="web" url="file://$PROJECT_DIR$/maven-ssm-layering/ssm-web" />
     <file type="web" url="file://$PROJECT_DIR$/ssm-maven" />
+  </component>
+  <component name="MavenCompilerTasksManager">
+    <option name="beforeCompileTasks">
+      <set>
+        <MavenCompilerTask>
+          <option name="goal" value="org.apache.maven.plugins:maven-install-plugin:2.4:install" />
+          <option name="projectPath" value="$PROJECT_DIR$/maven-ssm-layering/pom.xml" />
+        </MavenCompilerTask>
+      </set>
+    </option>
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -11,7 +23,13 @@
         <option value="$PROJECT_DIR$/hello-maven/pom.xml" />
         <option value="$PROJECT_DIR$/maven-nexus/pom.xml" />
         <option value="$PROJECT_DIR$/maven-ssm/pom.xml" />
+        <option value="$PROJECT_DIR$/maven-ssm-layering/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/maven-ssm/ssm-dao/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
